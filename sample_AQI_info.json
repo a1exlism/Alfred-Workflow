@@ -1,0 +1,63 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 153,
+    "idx": 1439,
+    "attributions": [
+      {
+        "url": "http://www.zjepb.gov.cn/",
+        "name": "Zhejiang Environmental Protection Bureau (浙江省环保厅门户)"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        30.274085,
+        120.15507
+      ],
+      "name": "Hangzhou (杭州)",
+      "url": "https://aqicn.org/city/hangzhou"
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 6.4
+      },
+      "h": {
+        "v": 42
+      },
+      "no2": {
+        "v": 17
+      },
+      "o3": {
+        "v": 48
+      },
+      "p": {
+        "v": 1019
+      },
+      "pm10": {
+        "v": 62
+      },
+      "pm25": {
+        "v": 153
+      },
+      "so2": {
+        "v": 4.6
+      },
+      "t": {
+        "v": 20.02
+      }
+    },
+    "time": {
+      "s": "2019-04-12 14:00:00",
+      "tz": "+08:00",
+      "v": 1555077600
+    },
+    "debug": {
+      "sync": "2019-04-12T15:32:30+09:00"
+    }
+  }
+}

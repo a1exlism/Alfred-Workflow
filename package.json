@@ -1,0 +1,40 @@
+{
+  "name": "alfred-aqi-query",
+  "version": "0.0.0",
+  "description": "aqi query with aqicn.org",
+  "license": "MIT",
+  "repository": "a1exlism/alfred-aqi-query",
+  "author": {
+    "name": "Quinn Sheng",
+    "email": "shengjitian@gmail.com",
+    "url": "csser.work"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "xo": "^0.17.0"
+  }
+}
