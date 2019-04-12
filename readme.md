@@ -14,7 +14,8 @@ $ npm install --global alfred-aqi-query
 
 ## Usage
 
-In Alfred, type `aqi`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `aqi ` and `query city`.
+More detail press <kbd>Enter</kbd>.
 
 ## Refer
 
